@@ -1,0 +1,32 @@
+{
+    "name":            "assertions-counter",
+    "version":         "0.0.1",
+    "description":     "A simple assertions counter for asynchronous code testing",
+    "keywords":        [
+        "assert",
+        "test",
+        "counter"
+    ],
+    "main":            "src/assertions-counter.js",
+    "author":          {
+        "name":  "dV",
+        "email": "dVaffection@gmail.com"
+    },
+    "license":         "MIT",
+    "devDependencies": {
+        "mocha": "1.18.x"
+    },
+    "bugs":            {
+        "url": "http://github.com/dVaffection/nodejs-assertions-counter/issues"
+    },
+    "repository":      {
+        "type": "git",
+        "url":  "git://github.com/dVaffection/nodejs-assertions-counter.git"
+    },
+    "scripts":         {
+        "test": "node_modules/.bin/mocha --recursive --reporter spec tests/"
+    },
+    "engines":         {
+        "node": ">= 0.4.x"
+    }
+}
