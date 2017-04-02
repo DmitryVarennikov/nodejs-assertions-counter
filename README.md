@@ -11,7 +11,7 @@ A simple assertions counter for asynchronous code testing
 
 ## Usage
 
-Example with [mocha](http://visionmedia.github.io/mocha/)
+Example with [mocha](http://mochajs.org/)
 
 It's convenient to count your assertions especially for mocked objects. In the example below a counter is called 2 times:
 first in the mocked `worker.changeState` method, second in the callback function for `worker.cleanIO` method.
